@@ -1,9 +1,8 @@
 name: Build and Release
 
 on:
-  push:
-    tags:
-      - "[1-9]+.[0-9]+.[0-9]+"
+  workflow_call:
+    inputs: ""
 
 jobs:
   build:
